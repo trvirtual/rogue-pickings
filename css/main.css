@@ -1,0 +1,138 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  }
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  clear: both;  }
+}
+.half-width {
+  width: 600px;
+  float: left;
+    }
+
+.third-width {
+  width:400px;
+  float: left;
+      }
+
+ /***** HEADER STYLING *****/
+
+header {
+  height: 100px;
+  padding: 25px 0px 25px 0px;
+}
+
+header h1 {
+  font-size: 30px;
+  color: #000000;
+  line-height: 23px;
+  font-style: bold;
+  text-transform: uppercase;
+}
+
+header span {
+  color: #77a466;
+}
+
+header nav {
+  float: right;
+  padding-top: 10px;
+ 
+}
+
+header nav ul li {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  color: #77a466;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+/***** ABOUT STYLING *****/
+
+#about .full-width {
+  padding: 50px 0;
+}
+
+#about h1 {
+  font-size: 18px;
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+#about p {
+  font-size: 16px;
+}
+
+/***** MIDDLE STYLING *****/
+
+#bottom .full-width {
+  border-top: 1px solid grey;
+  
+}
+
+#bottom {
+  font-size: 16px;
+}
+
+#bottom h1 {
+  text-transform: uppercase;
+  font-size: 12px ;
+  font-weight: bold;
+  padding: 20px 30px 10px 30px; 
+}
+
+#bottom p {
+  padding: 0px 30px 10px 30px;
+}
+
+
+
+#section-one nav ul li {
+  list-style-type: none;
+  font-size: 16px;
+  color: #77a466;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+#section-two {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+#section-three nav ul li {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+
+/***** FOOTER STYLING *****/
+
+footer .full-width {
+  clear: both;
+}
+
+footer h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+footer span {
+   color: #77a466;
+   font-family: 'Pacifico', cursive;
+   text-transform: lowercase;
+}
